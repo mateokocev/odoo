@@ -1,13 +1,12 @@
 {
-    'name': 'Reai',
-    'version': '0.1',
-    'summary': 'Testing version of the REAI addon',
-    'author': 'Mateo K.',
-    'depends': ['base'],
-    'data': [
-        'security/ir.model.access.*',
-        'views/reai_view.xml'
+    "name": "REAI",
+    "summary": "Custom CRM Modifications",
+    "author": "Mateo",
+    "depends": ["base", "crm"],
+    "data": [
+        "views/customers_preferences_views.xml",
+        "security/ir.model.access.csv",
     ],
-    'installable': True,
-    'application': True,
+    "installable": True,
+    "application": True,
 }
